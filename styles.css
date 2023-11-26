@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
+    overflow: none;
+    background-color: rgb(39, 36, 36);
+}
+
+#Money {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#Gain-Money {
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+.Promotion {
+    width: 350px;
+    height: 65px;
+    padding-top: 10px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+.show-Promotion {
+    visibility: visible;
+}
